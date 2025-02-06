@@ -1,0 +1,5 @@
+{
+    "files.autoSaveWorkspaceFilesOnly": true,
+    "gitlens.views.workspaces.branches.showStashes": true,
+    "gitlens.views.workspaces.includeWorkingTree": true
+}
