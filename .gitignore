@@ -1,0 +1,20 @@
+# Ignore CSV files
+# *.csv
+
+# Ignore PDF files
+*.pdf
+
+# Ignore Excel files
+*.xls
+*.xlsx
+
+# Ignore Word files
+*.doc
+*.docx
+
+# Ignore large archive files
+*.tar
+*.zip
+*.gz
+*.rar
+*.7z

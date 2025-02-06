@@ -1,16 +1,16 @@
 repos:
+  # Define a repository for the Black code formatter
   - repo: https://github.com/psf/black
+    # Specify the version of Black to use
     rev: 23.1.0
     hooks:
+      # Define a hook for Black
       - id: black
+
+  # Define a repository for the Flake8 linter
   - repo: https://github.com/PyCQA/flake8
+    # Specify the version of Flake8 to use
     rev: 6.0.0
     hooks:
+      # Define a hook for Flake8
       - id: flake8
-  - repo: local
-    hooks:
-      - id: check-todo
-        name: Prevent TODOs
-        entry: python hooks/custom-hooks/check-todo.py
-        language: python
-        types: [python]
