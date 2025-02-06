@@ -1,6 +1,8 @@
 # Core dependencies
 torch>=2.0.0
 transformers>=4.25.0
+pandas
+scikit-learn
 
 # Dev/test tools (optional but recommended)
 pytest==7.3.1
