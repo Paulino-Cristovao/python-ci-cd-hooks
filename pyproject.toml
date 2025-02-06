@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-ci-cd-hooks"
+version = "0.1.0"
+description = "A Python project for CI/CD hooks"
+authors = [
+    { name = "Paulino Cirstovao", email = "paulinocristovao86@gmail.com" }
+]
+dependencies = [
+    "torch",
+    "transformers"
+]
+
